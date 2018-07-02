@@ -6,7 +6,7 @@ app.get('/', function(req, res){
   res.send('Hello World');
 });
 
-var p = process.env.PORT || 7000;
+var p = process.env.PORT || 11221;
 
 app.listen(p, function(){
   console.log('This might not get printed as there is no screen');
